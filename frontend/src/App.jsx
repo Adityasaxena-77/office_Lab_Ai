@@ -50,9 +50,6 @@ export default function App() {
       <main className="app" id="dashboard">
         <header className="topbar">
           <div className="utility-bar">
-            <a className="search-link" href="#filters" aria-label="Go to filters" title="Filters">
-              <span className="search-icon" />
-            </a>
             <div className="topbar-actions">
               {meta?.rate_source === "fallback" && <span className="badge warn" title="Exchange-rate API unreachable">Approximate FX rates</span>}
               <span className="currency-chip">{filters.currency}</span>

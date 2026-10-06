@@ -1,5 +1,7 @@
 # Order Analytics – FastAPI + React
 
+Windows startup commands: [RUN.md](RUN.md).
+
 Ingests orders (JSON), products (CSV) and shipments (XML), joins and cleans them, and serves
 analytics to a React dashboard.
 
